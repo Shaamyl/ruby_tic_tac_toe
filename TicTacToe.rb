@@ -37,7 +37,6 @@ class GameBoard
 
     false
   end
-
 end
 
 class Player
@@ -49,9 +48,7 @@ class Player
 
   def make_move(game_board, x, y)
     game_board.update_board_position x, y, @game_char
-
   end
-
 end
 
 class TicTacToe
